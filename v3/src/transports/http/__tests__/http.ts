@@ -45,7 +45,7 @@ describe("processes an HTTP request", () => {
 
       await expect(response)
         .resolves
-        .toHaveProperty('statusCode', '2');
+        .toHaveProperty('statusCode', 200);
     });
   });
 
